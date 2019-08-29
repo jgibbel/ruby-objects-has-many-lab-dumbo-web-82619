@@ -14,7 +14,7 @@ class Song
     @artist = art_obj
   end 
   
-  def number 
+  def self.number 
     @@all.length 
   end 
     
