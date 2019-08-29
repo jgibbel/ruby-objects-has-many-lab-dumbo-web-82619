@@ -9,6 +9,7 @@ class Song
   
   def artist=(art_obj)
     art_obj.songs << self 
+    art_obj
   end 
     
 end
