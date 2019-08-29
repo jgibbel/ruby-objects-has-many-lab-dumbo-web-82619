@@ -19,4 +19,8 @@ class Post
     @@all.length 
   end 
   
+  def all 
+    @@all 
+  end
+  
 end
