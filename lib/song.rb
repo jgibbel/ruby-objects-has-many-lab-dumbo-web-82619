@@ -1,5 +1,6 @@
 class Song
-  attr_accessor :name, :artist
+  attr_accessor :name
+  attr_reader :artist
   
   @@all = []
  
@@ -9,7 +10,7 @@ class Song
   
   def artist=(art_obj)
     art_obj.songs << self 
-    art_obj
+    @artist = art_obj
   end 
     
 end
