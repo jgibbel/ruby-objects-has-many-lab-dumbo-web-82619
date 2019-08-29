@@ -11,5 +11,4 @@ class Song
     art.obj.songs << self 
   end 
     
-  
 end
