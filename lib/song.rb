@@ -17,5 +17,10 @@ class Song
   def self.number 
     @@all.length 
   end 
+  
+  def self.all 
+    @@all
+  end 
+  
     
 end
