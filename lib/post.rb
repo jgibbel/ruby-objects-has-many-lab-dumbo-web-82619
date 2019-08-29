@@ -19,7 +19,7 @@ class Post
     @@all.length 
   end 
   
-  def all 
+  def self.all 
     @@all 
   end
   
