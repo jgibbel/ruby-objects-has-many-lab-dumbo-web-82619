@@ -8,7 +8,7 @@ class Song
   end
   
   def artist=(art_obj)
-    art.obj.songs << self 
+    art_obj.songs << self 
   end 
     
 end
