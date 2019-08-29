@@ -15,4 +15,8 @@ class Post
     @author = auth_obj
   end 
   
+  def number 
+    @@all.length 
+  end 
+  
 end
